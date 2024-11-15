@@ -20,3 +20,8 @@ module people {
 	@InitFS(target_dir="data")
 	source "people"
 }
+
+module edgedetection {
+	@InitFS(target_dir="data")
+	source "objects"
+}
